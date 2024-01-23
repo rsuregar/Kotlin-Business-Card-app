@@ -63,7 +63,6 @@ data class Person(
     val socialMedia: String
 )
 
-@Composable
 fun getDefaultPerson(): Person {
     return Person(
         name = "Rahmat Suregar",
